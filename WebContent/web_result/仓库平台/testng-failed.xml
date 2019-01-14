@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [仓库平台]">
+  <test name="chrome(failed)">
+    <classes>
+      <class name="com.DWP.多租户管理.资源授权管理.HDFS资源授权管理.script.HdfsAuthorization">
+        <methods>
+          <include name="login"/>
+          <include name="del"/>
+          <include name="check"/>
+          <include name="update"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+          <include name="add"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源授权管理.HDFS资源授权管理.script.HdfsAuthorization -->
+      <class name="com.DWP.基础环境管理.监控配置管理.script.TestMonitorConfig">
+        <methods>
+          <include name="close"/>
+          <include name="login"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+          <include name="testMonitorConfig"/>
+        </methods>
+      </class> <!-- com.DWP.基础环境管理.监控配置管理.script.TestMonitorConfig -->
+      <class name="com.DWP.安全管理.用户管理.script.User">
+        <methods>
+          <include name="update"/>
+          <include name="del"/>
+          <include name="login"/>
+          <include name="add"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+          <include name="query"/>
+        </methods>
+      </class> <!-- com.DWP.安全管理.用户管理.script.User -->
+      <class name="com.DWP.服务管理.script.Services">
+        <methods>
+          <include name="login"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.服务管理.script.Services -->
+      <class name="com.DWP.多租户管理.资源配额管理.HDFS资源配额管理.script.HdfsResource">
+        <methods>
+          <include name="createfolder"/>
+          <include name="deletefolder"/>
+          <include name="login"/>
+          <include name="check"/>
+          <include name="renamefile"/>
+          <include name="renamefolder"/>
+          <include name="download"/>
+          <include name="delall"/>
+          <include name="deletefile"/>
+          <include name="createfile"/>
+          <include name="upload"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源配额管理.HDFS资源配额管理.script.HdfsResource -->
+      <class name="com.DWP.安全管理.审计管理.管理日志.script.Admin">
+        <methods>
+          <include name="login"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.安全管理.审计管理.管理日志.script.Admin -->
+      <class name="com.DWP.多租户管理.资源配额管理.Hbase资源配额管理.script.HbaseResource">
+        <methods>
+          <include name="check_space"/>
+          <include name="del_space"/>
+          <include name="update_data"/>
+          <include name="login"/>
+          <include name="create_data"/>
+          <include name="del_data"/>
+          <include name="del_table"/>
+          <include name="check_table"/>
+          <include name="update_table"/>
+          <include name="create_table"/>
+          <include name="create_space"/>
+          <include name="update_space"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源配额管理.Hbase资源配额管理.script.HbaseResource -->
+      <class name="com.DWP.多租户管理.资源授权管理.Kafka资源授权管理.script.KafkaAuthorization">
+        <methods>
+          <include name="login"/>
+          <include name="check"/>
+          <include name="update"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+          <include name="create"/>
+          <include name="del"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源授权管理.Kafka资源授权管理.script.KafkaAuthorization -->
+      <class name="com.DWP.基础环境管理.主机管理.script.TestMainEngine">
+        <methods>
+          <include name="login"/>
+          <include name="testMainEngine"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.DWP.基础环境管理.主机管理.script.TestMainEngine -->
+      <class name="com.DWP.告警.script.Alerts">
+        <methods>
+          <include name="login"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.告警.script.Alerts -->
+      <class name="com.DWP.多租户管理.资源配额管理.Hive资源配额管理.script.HiveResource">
+        <methods>
+          <include name="upload"/>
+          <include name="drop_db"/>
+          <include name="data_table"/>
+          <include name="check_table"/>
+          <include name="download"/>
+          <include name="login"/>
+          <include name="drop_table"/>
+          <include name="delfolder"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+          <include name="create_db"/>
+          <include name="create_table"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源配额管理.Hive资源配额管理.script.HiveResource -->
+      <class name="com.DWP.多租户管理.资源配额管理.Kafka资源管理.script.Kafka">
+        <methods>
+          <include name="create"/>
+          <include name="login"/>
+          <include name="check"/>
+          <include name="delete"/>
+          <include name="modify"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源配额管理.Kafka资源管理.script.Kafka -->
+      <class name="com.DWP.多租户管理.资源授权管理.Hive资源授权管理.script.HiveAuthorization">
+        <methods>
+          <include name="manage"/>
+          <include name="check"/>
+          <include name="login"/>
+          <include name="del"/>
+          <include name="end"/>
+          <include name="update"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源授权管理.Hive资源授权管理.script.HiveAuthorization -->
+      <class name="com.DWP.多租户管理.资源配额管理.Yarn资源配额管理.script.Yarn">
+        <methods>
+          <include name="login"/>
+          <include name="delete"/>
+          <include name="add"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源配额管理.Yarn资源配额管理.script.Yarn -->
+      <class name="com.DWP.多租户管理.资源配额管理.Kafka配额管理.script.KafkaResource">
+        <methods>
+          <include name="delete"/>
+          <include name="modify"/>
+          <include name="check"/>
+          <include name="create"/>
+          <include name="login"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源配额管理.Kafka配额管理.script.KafkaResource -->
+      <class name="com.DWP.数据总览.script.GetDataViewInfo">
+        <methods>
+          <include name="close"/>
+          <include name="login"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.数据总览.script.GetDataViewInfo -->
+      <class name="com.DWP.安全管理.审计管理.访问日志.script.Access">
+        <methods>
+          <include name="queryres"/>
+          <include name="queryuser"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.DWP.安全管理.审计管理.访问日志.script.Access -->
+      <class name="com.DWP.多租户管理.资源授权管理.Yarn资源授权管理.script.YarnAuthorization">
+        <methods>
+          <include name="create"/>
+          <include name="login"/>
+          <include name="check"/>
+          <include name="update"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+          <include name="del"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源授权管理.Yarn资源授权管理.script.YarnAuthorization -->
+      <class name="com.DWP.多租户管理.资源授权管理.HBase资源授权管理.script.HbaseAuthorization">
+        <methods>
+          <include name="add"/>
+          <include name="login"/>
+          <include name="check"/>
+          <include name="update"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+          <include name="del"/>
+        </methods>
+      </class> <!-- com.DWP.多租户管理.资源授权管理.HBase资源授权管理.script.HbaseAuthorization -->
+      <class name="com.DWP.系统概况.script.Portal">
+        <methods>
+          <include name="login"/>
+          <include name="afterclass"/>
+          <include name="startchromedriver"/>
+        </methods>
+      </class> <!-- com.DWP.系统概况.script.Portal -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [仓库平台] -->
